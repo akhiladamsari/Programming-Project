@@ -212,6 +212,9 @@ p.site-slogan {
 /*-----------------------------------------------------------------------------------*/
 /* Utility Classes */
 /*-----------------------------------------------------------------------------------*/
+.text-white {
+  color: rgba(255, 255, 255, 1) !important;
+}
 .text-light {
   color: rgba(255, 255, 255, 0.8) !important;
 }
@@ -243,53 +246,53 @@ p.site-slogan {
   color: rgba(255, 255, 255, 0.6);
 }
 .color-default {
-  color: #555555 !important;
+  color: #ec008c !important;
 }
 .color-default[class^="fa-"]:before,
 .color-default[class*=" fa-"]:before {
-  color: #555555;
+  color: #ec008c;
 }
 .color-gray {
-  color: #555555 !important;
+  color: #ec008c !important;
 }
 .color-gray[class^="fa-"]:before,
 .color-gray[class*=" fa-"]:before {
-  color: #555555;
+  color: #ec008c;
 }
 .color-gray-light {
-  color: #b3b3b3 !important;
+  color: #ff00ff !important;
 }
 .color-gray-light[class^="fa-"]:before,
 .color-gray-light[class*=" fa-"]:before {
-  color: #b3b3b3;
+  color: #ff00ff;
 }
 .color-gray-lighter {
-  color: #ebebeb !important;
+  color: #fe6ce4 !important;
 }
 .color-gray-lighter[class^="fa-"]:before,
 .color-gray-lighter[class*=" fa-"]:before {
-  color: #ebebeb;
+  color: #fe6ce4;
 }
 .color-primary {
-  color: #596372 !important;
+  color: #ed145b !important;
 }
 .color-primary[class^="fa-"]:before,
 .color-primary[class*=" fa-"]:before {
-  color: #596372;
+  color: #ed145b;
 }
 .color-primary-light {
   color: #6f7c8f !important;
 }
 .color-primary-light[class^="fa-"]:before,
 .color-primary-light[class*=" fa-"]:before {
-  color: #6f7c8f;
+  color: #ffffff;
 }
 .color-primary-lighter {
-  color: #a9b0bb !important;
+  color: #ffffff !important;
 }
 .color-primary-lighter[class^="fa-"]:before,
 .color-primary-lighter[class*=" fa-"]:before {
-  color: #a9b0bb;
+  color: #ffffff;
 }
 .color-red {
   color: #8b2626 !important;
@@ -605,30 +608,30 @@ p.site-slogan {
   background-color: #000000;
 }
 .background-dark {
-  background-color: #04070C;
+  background-color: #ec008c;
 }
 .background-gray-darker {
-  background-color: #222222;
+  background-color: #c90e4b;
 }
 .background-gray-dark {
-  background-color: #333333;
+  background-color: #ed145b;
 }
 .background-gray {
   background-color: #555555;
 }
 .background-gray-light {
-  background-color: #b3b3b3;
+  background-color: #d30a9d;
 }
 .background-gray-lighter {
-  background-color: #ebebeb;
+  background-color: #ff00ff;
 }
 /* Button Colors */
 .btn {
   border-radius: 0px;
 }
 .btn-default {
-  background-color: rgba(0, 0, 0, 0.043);
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: rgba(237, 20, 91, 0.043);
+  border: 1px solid rgba(237, 20, 91, 0.15);
   border-radius: 0px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05) inset;
   margin: 0;
